@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#181717"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:text="Explorador de Vistas Android"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnTextViews"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:backgroundTint="#E91E63"
+        android:drawableStart="@android:drawable/ic_dialog_info"
+        android:drawablePadding="8dp"
+        android:text="Vistas de Texto"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnButtons"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:backgroundTint="#E91E63"
+        android:drawableStart="@android:drawable/ic_media_play"
+        android:drawablePadding="8dp"
+        android:text="Tipos de Botones"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnWidgets"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:backgroundTint="#E91E63"
+        android:drawableStart="@android:drawable/checkbox_off_background"
+        android:drawablePadding="8dp"
+        android:text="Widgets Variados"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnImages"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:backgroundTint="#E91E63"
+        android:drawableStart="@android:drawable/ic_menu_gallery"
+        android:drawablePadding="8dp"
+        android:text="Vistas de Imagen"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>
